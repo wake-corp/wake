@@ -22,27 +22,27 @@ body {
 /* Default Link Color */
 
 a, .la-ball-triangle-path {
-    color:#d2b356;
+    color:#202020;
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    color:#e4e4e4;
 }
 
 /* Default Icon Color */
 
 .icon i {
-    color:#d2b356;
+    color:#202020;
 }
 
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #d2b356;
+    background: #e4e4e4;
 }
 
 .pricing-block-content:hover {
-    border-color:#d2b356;
+    border-color:#e4e4e4;
 }
 
 
@@ -167,14 +167,14 @@ body {
     font-size:62px;
     line-height:60px;
     font-weight:800;
-    color:#111;
+    color:#fff;
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:18px;
     font-weight:300;
-    color:#111;
+    color:#fff;
 }
 
 

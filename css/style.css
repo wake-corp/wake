@@ -331,6 +331,7 @@ section {
 
 #logo {
     float: left;
+    width:
     height: 71px;
     line-height: 66px;
     margin-right: 15px;
@@ -353,9 +354,10 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 100px;
     vertical-align: middle;
     margin-right: 15px;
+    width:100px
 }
 
 #navigation-logo {
@@ -2326,7 +2328,3 @@ blockquote {
     }
 
 }
-
-
-
-

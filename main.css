@@ -1,0 +1,7 @@
+body{background-color: #1e1e1e;}
+a,p,span,hr{color:#fff;font-family: 'Roboto', 'Pretendard' sans-serif;}
+.text_big{font-size:4vw;font-weight:800;line-height: 0.5vw;}
+.text_mid{font-size:3vw;font-weight:800;}
+.text_small{font-size:2vw;font-weight:600;line-height: 2.5vw;}
+.text_title{font-family: 'Trirong', serif;font-weight:800;line-height: 0.5vw; }
+section{padding: 0 30px;}

@@ -2,37 +2,71 @@
 <html lang="kr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
-        <link rel="stylesheet" href="main.css">
-        <title>Wake corp.</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Wake corp.</title>
+    <script type="text/javascript">
+      $(function(){
+        $(".slider").bxSlider({
+          auto:true,
+          pager:false,
+          controls: false,
+          pause: 2000
+        });
+      });
+    </script>
   </head>
 <body>
-  <section>
+  <div class="container">
+  <section class="left">
     <br><br>
     <hr>
     <p class="text_big">Wake<span class="text_small"> (주)웨이크</span></p>
     <hr>
+    <h2 class="text_title">Overview</h2>
     <p class="text_small">Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.</p>
     <hr>
-
-    <picture>
-    <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-    <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-    <source srcset="flowers.jpg">
-    <img src="img_smallflower.jpg" alt="Flowers">
-   </picture>
+  </section>
+  <section class="right">
+    <div class="slider">
+      <div><img src="img/img02.png" style="width:100%;"></div>
+      <div><img src="img/img01.png" style="width:100%;"></div>
+    </div>
+  </section>
+</div>
+<section>
+  <hr>
+  <h2 class="text_title">Our Goal</h2>
+  <p class="text_small">
+    Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.</p>
+  <hr>
+</section>
+  <section>
+    <div><img src="img/img01.png" style="width:100%;"></div>
   </section>
   <section>
-    <img src="img_girl.jpg" style="max-width:100%;height:auto;">
+    <hr>
+    <h2 class="text_title">Timeline</h2>
+    <p class="text_small">
+      Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.Graphic design studio in Los Angeles. Our team focuses on branding, print, and digital design while incorporating traditional craftsmanship. We work closely with clients to create tailored designs that suit their unique needs, fostering a professional yet approachable atmosphere.</p>
+    <hr>
   </section>
+  <!-- <picture>
+  <source srcset="img/img01.png" media="(max-width: 600px)">
+  <source srcset="img/img01.png" media="(max-width: 1500px)">
+  <source srcset="img/img01.png">
+  <img src="img01_small.png" alt="wake corp">
+ </picture> -->
   </body>
 </html>

@@ -5,10 +5,13 @@ a,p,span,hr{color:#fff;font-family: 'Roboto', 'Pretendard' sans-serif;}
 .text_small{width:90%;font-size:2rem;font-weight:600;line-height:1.1;padding-left: 30px;}
 .text_title{width:90%;font-family: 'Trirong', serif;font-weight:200;line-height: 1;color:#fff;font-size: 3rem;padding-left: 30px;}
 .container{display: flex;flex-direction: column;}
+.container1{display: flex;flex-direction: row;}
+
 .left{width:100%;}
 .right{width:100%;}
 .slider{width: 100%;}
 
+.a01{width:45%;margin: 0;}
 
 .bx-wrapper{
   border:0 !important;box-shadow: none !important;-webkit-shadow:none !important;

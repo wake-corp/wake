@@ -1,18 +1,21 @@
 html,body{background-color:#1e1e1e;margin: 0;padding: 0;}
 a,p,span,hr{color:#fff;font-family: 'Roboto', 'Pretendard' sans-serif;}
-.text_big{width:90%;font-size:4rem;font-weight:800;line-height: 1;padding-left: 30px;}
+.header_top{display:flex;position:fixed;z-index: 10;width:100%; height:100px;flex-direction: row;color:#fff;justify-content:space-between;text-align:center;}
+.header_top p{font-size:3vw;width:10%;display:inline-block;margin: 1% 4vw;}
+.logo{}
+.text_big{width:90%;font-size:4rem;font-weight:800;line-height: 1;padding-left: 4vw;}
 .text_mid{width:90%;font-size:3rem;font-weight:800;padding-left: 30px;}
 .text_small{width:90%;font-size:2rem;font-weight:600;line-height:1.1;padding-left: 30px;vertical-align: middle;}
 .text_title{width:90%;font-family: 'Trirong', serif;font-weight:200;line-height: 1;color:#fff;font-size: 3rem;padding-left: 30px;}
 .container{display: flex;flex-direction: column;}
 .container1{display: flex;flex-direction: row;}
-hr{margin: 0 30px}
+hr{margin: 0 4vw}
 .left{width:100%;}
 .right{width:100%;}
 .slider{width: 100%;}
 
 .a01{width:50%;margin: 0;overflow: scroll;}
-.a01 hr{margin:0 30px;}
+.a01 hr{margin:0 4vw;}
 .bx-wrapper{
   border:0 !important;box-shadow: none !important;-webkit-shadow:none !important;
 }

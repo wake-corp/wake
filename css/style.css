@@ -404,7 +404,7 @@ a:focus {
 
 .about_section .img_container .img-box {
   border: 5px solid #e1e1e1;
-  border-radius: 100%;
+  border-radius: 30%;
   overflow: hidden;
 }
 
@@ -416,6 +416,13 @@ a:focus {
   width: 50%;
   margin-left: auto;
   margin-top: -12%;
+}
+
+.about_section .img_container .img-box.b3 {
+  width: 50%;
+  margin-left: auto;
+  border-radius: 0;
+  border: 0px;
 }
 
 .about_section .img_container .img-box img {
@@ -703,3 +710,10 @@ a:focus {
 .notice_box p{text-align: left;font-weight:800;}
 .notice_box span{font-weight: 100;font-size: 1em;}
 .more_button{width:100%;}
+.net_income{}
+.net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;}
+.net_income p.net_income2023{}
+.bx-wrapper{border:0 !important;}
+.bigword{font-size: 3rem;font-weight:bold;}
+.number_box{width:100%;text-align: right;}
+.number{font-weight: normal;}

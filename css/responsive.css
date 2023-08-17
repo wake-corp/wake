@@ -84,7 +84,7 @@
 
 
 .main_info_container p{ font-size: 0.5rem;}
-
+.notice_title{font-size: 1.5rem;}
 
 
 }
@@ -112,6 +112,8 @@
   }
 .main_info_container{display: none;}
 .main_info_container1{display:flex;}
+.notice_title{font-size: 1rem;}
+p.more_button{font-size: 0.5rem;margin-left: 10px;}
 }
 
 @media (max-width: 480px) {
@@ -125,6 +127,7 @@
   .slider_section .carousel-control-next {
     right: 0;
   }
+  p.more_button{font-size: 0.3rem;margin-left: 10px;}
 }
 
 @media (max-width: 360px) {}

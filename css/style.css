@@ -706,13 +706,19 @@ a:focus {
 .main_info_container1{display: flex;width: 90%; margin: 0 auto;text-align:left;padding-top: 2vh;color:#fff;font-size: 0.7rem;justify-content: center;display:none;}
 .main_info_container1 p:nth-child(2){margin-left: 10%;}
 .main_info_container p{color:#fff;font-size: 1.1rem;margin-left: 3%;}
-.notice_section{width: 100%;margin: 0 auto;text-align: center;}
-.notice_section h2{font-size:2rem; font-weight:bold;}
+.notice_section{width: 60vw;margin: 0 auto;text-align: center;}
+.notice_section h2{font-size:2rem; font-weight:bold;margin-top: 5vh;}
 .notice_section h6{text-align: left;}
-.notice_box{width:70%;height:300px;margin:0 auto;background-color:#ebebeb;overflow:scroll;padding:2%;}
+.notice_box{width:100%;height:300px;margin:0 auto;background-color:#ebebeb;overflow:scroll;padding:2%;display: none;}
 .notice_box p{text-align: left;font-weight:800;}
 .notice_box span{font-weight: 100;font-size: 1em;}
-.more_button{width:100%;}
+
+.notice_title{text-align: left;font-size: 2rem;display: flex;}
+.notice_title p{width:80%;}
+p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem;height:3vh;line-height: 3vh;}
+
+
+
 .net_income{}
 .net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;}
 .net_income p.net_income2023{}
@@ -725,10 +731,14 @@ a:focus {
 .widebanner2{width: 100%;background: url(../past/img/img02.png) no-repeat center;background-size: cover;margin: 0 auto;height:50vh;padding-top: 22vh;}
 .widebanner ,.widebanner1, .widebanner2 p{text-align: center;font-family: "Pretendard", sans-serif; font-size: 2.5rem; color:white;font-weight:bold;}
 .widebanner ,.widebanner1, .widebanner2 span{text-align: center;font-family: "Pretendard", sans-serif; font-size: 1rem; color:white;font-weight:bold;display: block;}
+.widebanner_notice{width: 100%;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;background-attachment: fixed; margin: 0 auto;height:30vh;padding-top: 22vh;}
+
+
 .brandlist{width:100vw;}
 .brand_article1{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img02.png) no-repeat center;background-size: cover;}
 .brand_article2{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;}
 .brand_article3{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img01.png) no-repeat center;background-size: cover;}
+
 
 .brand_article_text_box{position:relative;width:100%;top:5vh;left:3vw;height:20%;text-align:left;font-family: 'Pretendard', sans-serif; font-size: 2rem;line-height: 1;color:#fff;}
 .brand_article_text_box p{margin: 0; padding:0;}

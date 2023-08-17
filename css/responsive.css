@@ -1,10 +1,12 @@
-@media (max-width: 1120px) {}
+@media (min-width: 1920px) {
+.article01_video{width:100%;height:auto;}
+}
+
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
 
-  .hero_area {
-    height: auto;
-  }
 
   .header_section {
     padding-top: 10px;
@@ -37,7 +39,6 @@
   .about_section .img_container .img-box.b2 {
     margin-top: -5%;
   }
-.article01_video{}
 .main_text01{}
 .main_info_container p{ font-size: 0.8rem;}
 
@@ -81,7 +82,9 @@
     text-align: center;
   }
 
-  .main_info_container p{ font-size: 0.5rem;}
+
+.main_info_container p{ font-size: 0.5rem;}
+
 
 
 }
@@ -107,11 +110,14 @@
     margin-top: 15px;
     padding: 10px 40px;
   }
-  .main_info_container p{ font-size: 0.3rem;}
+.main_info_container{display: none;}
+.main_info_container1{display:flex;}
+}
+
+@media (max-width: 480px) {
 
 }
 
-@media (max-width: 480px) {}
 
 @media (max-width: 420px) {
 

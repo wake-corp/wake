@@ -37,6 +37,12 @@
   .about_section .img_container .img-box.b2 {
     margin-top: -5%;
   }
+.article01_video{}
+.main_text01{}
+.main_info_container p{ font-size: 0.8rem;}
+
+
+
 
 }
 
@@ -74,6 +80,10 @@
   .info_section .info_contact a {
     text-align: center;
   }
+
+  .main_info_container p{ font-size: 0.5rem;}
+
+
 }
 
 @media (max-width: 576px) {
@@ -97,6 +107,8 @@
     margin-top: 15px;
     padding: 10px 40px;
   }
+  .main_info_container p{ font-size: 0.3rem;}
+
 }
 
 @media (max-width: 480px) {}

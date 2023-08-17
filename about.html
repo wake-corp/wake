@@ -32,7 +32,9 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <!-- BX slider -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </head>
 
@@ -120,7 +122,10 @@
 
       </div>
     </div>
-  </section>
+   </section>
+   <div class="widebanner" data-aos="fade-up">
+     <p>바이오 기술력으로 완성된 혁신 제품</p>
+   </div>
 
   <!-- end about section 01-->
   <!-- about section 02 -->
@@ -158,6 +163,9 @@
       </div>
     </div>
   </section>
+  <div class="widebanner1" data-aos="fade-up">
+    <p>웨이크가 걸어온 발자취</p>
+  </div>
 
   <!-- end about section 02-->
   <!-- about section 03 -->
@@ -297,6 +305,11 @@
       </div>
     </div>
   </section>
+  <div class="widebanner2" data-aos="fade-up">
+    <p>WAKE MAKERS</p>
+    <span>웨이크를 만드는 사람들</span>
+
+  </div>
 
   <!-- end about section 03-->
 
@@ -343,6 +356,9 @@
       }
     }
   });
+  AOS.init({
+ duration: 1200
+});
   </script>
 
 });

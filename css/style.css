@@ -725,7 +725,11 @@ a:focus {
 .widebanner2{width: 100%;background: url(../past/img/img02.png) no-repeat center;background-size: cover;margin: 0 auto;height:50vh;padding-top: 22vh;}
 .widebanner ,.widebanner1, .widebanner2 p{text-align: center;font-family: "Pretendard", sans-serif; font-size: 2.5rem; color:white;font-weight:bold;}
 .widebanner ,.widebanner1, .widebanner2 span{text-align: center;font-family: "Pretendard", sans-serif; font-size: 1rem; color:white;font-weight:bold;display: block;}
-.brandlist{width:100%;}
-.brand_article{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;}
-.brand_article_img_box1{width:80%;background: url(../past/img/img02.png) no-repeat center;background-size: cover;}
-.brand_article_text_box{width:20%;text-align: right;font-family: 'Pretendard', sans-serif; font-size: 2rem;padding-top:30vh;}
+.brandlist{width:100vw;}
+.brand_article1{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img02.png) no-repeat center;background-size: cover;}
+.brand_article2{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;}
+.brand_article3{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img01.png) no-repeat center;background-size: cover;}
+
+.brand_article_text_box{position:relative;width:100%;top:5vh;left:3vw;height:20%;text-align:left;font-family: 'Pretendard', sans-serif; font-size: 2rem;line-height: 1;color:#fff;}
+.brand_article_text_box p{margin: 0; padding:0;}
+.brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}

@@ -713,15 +713,16 @@ a:focus {
 .notice_box p{text-align: left;font-weight:800;}
 .notice_box span{font-weight: 100;font-size: 1em;}
 
-.notice_title{text-align: left;font-size: 2rem;display: flex;}
+.notice_title{text-align: left;font-size: 1.3rem;display: flex;}
 .notice_title p{width:80%;}
 p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem;height:3vh;line-height: 3vh;}
 
 
 
 .net_income{}
-.net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;}
-.net_income p.net_income2023{}
+.net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;transition: 4s ease-in-out 1s;}
+.net_income p.net_income2023{animation-name: i2023; animation-duration: 3s;animation-delay: 2s;animation-fill-mode: both;}
+.net_income p.net_income2022{animation-name: i2022;animation-fill-mode: both;animation-duration: 2s;animation-delay: 1.5s;}
 .bx-wrapper{border:0 !important;}
 .bigword{font-size: 3rem;font-weight:bold;}
 .number_box{width:100%;text-align: right;}
@@ -743,3 +744,24 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .brand_article_text_box{position:relative;width:100%;top:5vh;left:3vw;height:20%;text-align:left;font-family: 'Pretendard', sans-serif; font-size: 2rem;line-height: 1;color:#fff;}
 .brand_article_text_box p{margin: 0; padding:0;}
 .brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}
+
+
+
+/* 키프레임   */
+@keyframes i2023 {
+  0%{
+    width:0%;
+  }
+  100%{
+    width:120%;
+  }
+}
+
+@keyframes i2022 {
+  0%{
+    width:0%;
+  }
+  100%{
+    width:80%;
+  }
+}

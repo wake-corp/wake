@@ -35,7 +35,9 @@
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+  <!--wow -->
+  <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+  <script src="https://wowjs.uk/dist/wow.min.js"></script>
 </head>
 
 <body class="sub_page">
@@ -150,7 +152,7 @@
             <a href="">
               Read More
             </a>
-            <div class="net_income" data-aos="fade-up">
+            <div class="net_income " data-aos="fade-up">
               <div class="bigword">2023</div>
               <p class="net_income2023" >2023 Net Income </p>
               <div class="bigword">2022</div>
@@ -337,36 +339,23 @@
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
-    $('.net_income2023').delay(1000).animate({width:'100%'},3000);
-    $('.net_income2022').delay(800).animate({width:'80%'},3000);
+
     $(".slider").bxSlider({
       auto: true,
       pause: 2000,
       controls: false,
       mode:'vertical'
     });
-    var cnt0 = 3840;
 
-    counterFn();
-
-    function counterFn() {
-
-      id0 = setInterval(count0Fn, 200);
-
-      function count0Fn() {
-        cnt0++;
-        if (cnt0 > 3860) {
-          clearInterval(id0);
-        } else {
-          $(".number").text(cnt0);
-        }
-      }
-    }
   });
   AOS.init({
  duration: 1200,
  once: false
 });
+wow = new WOW({
+mobile:true
+})
+new WOW().init();
   </script>
 </body>
 

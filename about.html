@@ -333,12 +333,29 @@
   </section>
   <!-- end main_info -->
 
+  <div id="ele">
+   sch
+  </div>
+
+
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
+  $(window).scroll(function(){
+    var sch = $( window ).scrollTop();
+    $("#ele").text(sch);
+    if(sch > 700){
+      $('.net_income2023').css('width','120%');
+      $('.net_income2022').css('width','80%');
+    }else{
+      $('.net_income2023').css('width','0');
+      $('.net_income2022').css('width','0');
+    }
+  });
+
 
     $(".slider").bxSlider({
       auto: true,
@@ -346,6 +363,9 @@
       controls: false,
       mode:'vertical'
     });
+
+
+
 
   });
   AOS.init({

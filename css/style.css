@@ -720,9 +720,9 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 
 
 .net_income{}
-.net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;transition: 4s ease-in-out 1s;}
-.net_income p.net_income2023{animation-name: i2023; animation-duration: 3s;animation-delay: 2s;animation-fill-mode: both;}
-.net_income p.net_income2022{animation-name: i2022;animation-fill-mode: both;animation-duration: 2s;animation-delay: 1.5s;}
+.net_income p{width:0;height:40px;background-color: #000;border-radius: 10px;color:#fff;line-height: 40px;padding-left: 10px;transition: 1s ease-in-out 0.5s;}
+.net_income p.net_income2023{}
+.net_income p.net_income2022{}
 .bx-wrapper{border:0 !important;}
 .bigword{font-size: 3rem;font-weight:bold;}
 .number_box{width:100%;text-align: right;}
@@ -745,7 +745,7 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .brand_article_text_box p{margin: 0; padding:0;}
 .brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}
 
-
+#ele{width:200px;height: 200px;color:#000;position: fixed;z-index: 1000;top:0;left: 0;}
 
 /* 키프레임   */
 @keyframes i2023 {

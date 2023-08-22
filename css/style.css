@@ -47,6 +47,7 @@ body {
   position: relative;
   font-weight: bold;
   margin-right: 10px;
+  text-align: left;
 }
 
 .heading_container img {
@@ -55,7 +56,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
+  height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -698,16 +699,19 @@ a:focus {
 }
 /*# sourceMappingURL=style.css.map */
 .logo{width:35% !important;}
+
 .article01_video{height:100vh;}
-.main_section{width:100%;overflow: hidden;margin: 0 auto;}
+.main_section{width:100%;overflow: hidden;margin: 0 auto;background-color: #000;}
 .main_text01{position:absolute;left:50%;top:33vh;z-index:10;color:white;font-size:2rem;transform:translate(-50%,0);text-align: center;word-break: keep-all;}
 .main_text01 span{font-size:1.5rem; word-break: keep-all;line-height: 1.1;}
 .main_text02{position:absolute;left:50%;bottom:5vh;z-index:10;color:white;font-size:1rem;transform:translate(-50%,0);text-align: center;word-break: keep-all;}
-.main_info{width:100%;background-color: #1e1e1e;position: relative;bottom:0px;}
-.main_info_container{display: flex;width: 90%; margin: 0 auto;text-align: center;justify-content: center;padding: 2vh 0  1vh 0;}
+.main_info{width:100%;background-color: #000;position: relative;bottom:0px;}
+.main_info_container{display: flex;width: 90%; margin: 0 auto;text-align: center;justify-content: center;align-items : center;}
 .main_info_container1{display: flex;width: 90%; margin: 0 auto;text-align:left;padding-top: 2vh;color:#fff;font-size: 0.7rem;justify-content: center;display:none;}
 .main_info_container1 p:nth-child(2){margin-left: 10%;}
-.main_info_container p{color:#fff;font-size: 1.1rem;margin-left: 3%;}
+.main_info_container p{color:#fff;font-size: 0.8rem;margin-left: 3%;}
+.logo_w{width:4%;}
+.logo_wx{width:15%;}
 .notice_section{width: 60vw;margin: 0 auto;text-align: center;}
 .notice_section h2{font-size:2rem; font-weight:bold;margin-top: 5vh;}
 .notice_section h6{text-align: left;}
@@ -747,6 +751,7 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .brand_article_text_box p{margin: 0; padding:0;}
 .brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}
 
+.weight100{font-weight: 100;}
 #ele{width:200px;height: 200px;color:#000;position: fixed;z-index: 1000;top:0;left: 0;}
 
 /* 키프레임   */

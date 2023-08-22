@@ -1,5 +1,4 @@
 @media (min-width: 1220px) {
-.article01_video{width:100%;height:auto;}
 
 }
 
@@ -130,7 +129,8 @@ p.more_button{font-size: 0.5rem;margin-left: 10px;}
 
 
 @media (max-width: 420px) {
-
+  .navbar-brand {width:50%;}
+  .logo{width:50% !important;}
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
     right: 0;

@@ -43,7 +43,9 @@
   .about_section .img_container .img-box.b2 {
     margin-top: -5%;
   }
-.main_text01{}
+.main_text01{font-size: 1.6rem;}
+.main_text02, .main_text01 span{font-size: 1rem}
+
 .main_info_container p{ font-size: 0.8rem;}
 
 

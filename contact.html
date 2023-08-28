@@ -99,28 +99,42 @@ WAKE에 대해 궁금하신 점을 자유롭게 문의해주세요.<br>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form class="gform" method="post" data-email="wake@wakecorp.com"action="https://script.google.com/macros/s/AKfycby-FqOChevlgsz96tuYQA_fII1PGXcj7oa_S30L9SnMebeob4n9tvCa2mjCt863iNLMlA/exec" target="iframe1">
             <div>
-              <input type="text" placeholder="Name" />
+              <select name="asks" id="asks">
+              <optgroup label="문의내용">
+              <option value="제휴" name="ask">제휴</option>
+              <option value="IR" name="ask">IR</option>
+              <option value="채용" name="ask">채용</option>
+              </optgroup>
+              </select>
+              <div class="margin00"></div>
+              <input id="name" name="name" type="text" placeholder="Name" />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email" />
             </div>
             <div>
               <input type="text" placeholder="Phone Number" />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" name="message"class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex ">
-              <button>
+              <button type="submit" class="sub_b">
                 SEND
               </button>
-            </div>
-          </form>
+            </form>
+
+      </div>
+          <iframe id="iframe1" name="iframe1" style="display:none;"></iframe>
+
           <div class="contact_add_info">
-          <p>문의주신 내용은 담당자 확인 후 신속하게 답변을 드리도록 하겠습니다.<br>
-          전화로 연락주시면 보다 빠른 응대가 가능합니다.</p>
+          <div class="thankyou_message" style="display:none;color:#f00;">
+          <p><b>감사합니다.</b> </p>
+          <p>문의주신 내용은 담당자 확인 후 신속하게 답변을 드리도록 하겠습니다.</p>
+          </div>
+          <p>전화로 연락주시면 보다 빠른 응대가 가능합니다.</p>
           <p>Tel :<br><b>1599-7460</b></p>
 <!-- <p>Email : jslee@wakecorp.com</p> -->
 <p>찾아오시는 길: <br><strong>서울특별시 강남구 테헤란로 501, 브이플렉스타워 713호</strong></p>
@@ -141,7 +155,7 @@ WAKE에 대해 궁금하신 점을 자유롭게 문의해주세요.<br>
 
 
   <!-- main_info -->
-  <section class="main_info contact_info">
+  <section class="main_info">
   <div class="main_info_container">
   <p class="logo_w"><img src="images/logo_w.svg" alt="" ></p>
   <p>06168 서울특별시 강남구 테헤란로 501 브이플렉스 713호</p>
@@ -161,11 +175,20 @@ WAKE에 대해 궁금하신 점을 자유롭게 문의해주세요.<br>
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   <script>
   AOS.init({
  duration: 1200});
   </script>
-
+  <script>
+      $( document ).ready( function() {
+        $( '.sub_b' ).click( function() {
+          alert('전송완료');
+          $('.thankyou_message').css('display','block');
+        } );
+      } );
+    </script>
 </body>
 
 </html>

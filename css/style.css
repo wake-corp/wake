@@ -749,12 +749,12 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .brand_article_text_box p{margin: 0; padding:0;}
 .brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}
 
-.contact_info{position:absolute;}
+.contact_info{position:relative;}
 .contact_add_info{
   margin-top: 3vh;
 }
 
-
+.margin00{height:20px;}
 .text_white{color:#fff;}
 .weight100{font-weight: 100;}
 #ele{width:200px;height: 200px;color:#000;position: fixed;z-index: 1000;top:0;left: 0;}

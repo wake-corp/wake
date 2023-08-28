@@ -1,5 +1,5 @@
 @media (min-width: 2000px) {
-
+}
 @media (min-width: 1220px) {
 
 }
@@ -120,7 +120,7 @@
     margin-top: 15px;
     padding: 10px 40px;
   }
-.main_info_container{display: none;}
+.main_info_container{display: none !important;}
 .main_info_container1{display:flex;}
 .notice_title{font-size: 1rem;}
 p.more_button{font-size: 0.5rem;margin-left: 10px;}

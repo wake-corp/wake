@@ -739,6 +739,12 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .widebanner2{width: 100%;background: url(../past/img/corevalue03.jpg) no-repeat center;background-size: cover;margin: 0 auto;padding-top:25vh;}
 .widebanner_notice{width: 100%;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;background-attachment: fixed; margin: 0 auto;height:30vh;padding-top: 22vh;}
 .position01{position:relative;bottom:50vh;left:0;flex-direction: column;text-align: left;width:100%;margin-left: 15px;}
+.people_container{
+  width:90%;display: flex;margin: 5% auto;}
+.people_container > div{height: 50vh;overflow: hidden;margin: 0 1vw;text-align: center;}
+
+.about_contact{height: 30vh;margin-top: 10vh;}
+
 .brandlist{width:100vw;}
 .brand_article1{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img02.png) no-repeat center;background-size: cover;}
 .brand_article2{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;}
@@ -753,6 +759,7 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .contact_add_info{
   margin-top: 3vh;
 }
+
 
 .margin00{height:20px;}
 .text_white{color:#fff;}

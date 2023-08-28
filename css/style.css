@@ -746,14 +746,20 @@ p.more_button{width:20%;border: 1px solid #000;text-align:center;font-size: 1rem
 .about_contact{height: 30vh;margin-top: 10vh;}
 
 .brandlist{width:100vw;}
-.brand_article1{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img02.png) no-repeat center;background-size: cover;}
-.brand_article2{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;}
-.brand_article3{width:80%;height:50vh;margin: 0 auto; display: flex;margin-bottom: 2vh;background: url(../past/img/img01.png) no-repeat center;background-size: cover;}
+.brand_article1{width:80%;height:50vh;margin: 0 auto; display: flex;background: url(https://cdn.imweb.me/thumbnail/20230720/d751fed89d7d1.png) no-repeat center;background-size: cover;}
+.brand_article2{width:80%;height:50vh;margin: 0 auto; display: flex;background: url(../past/img/img03.jpg) no-repeat center;background-size: cover;}
+.brand_article3{width:80%;height:50vh;margin: 0 auto; display: flex;background: url(../past/img/img01.png) no-repeat center;background-size: cover;}
 
 
 .brand_article_text_box{position:relative;width:100%;top:5vh;left:3vw;height:20%;text-align:left;font-family: 'Pretendard', sans-serif; font-size: 2rem;line-height: 1;color:#fff;}
-.brand_article_text_box p{margin: 0; padding:0;}
-.brand_article_text_box > p:nth-child(3){width:90%;height:70%;overflow:scroll;font-size: 1.5rem;margin-top: 30vh;}
+.brand_article_text_box p{margin: 20px 0; padding:0;}
+.brand_article_text_box > p:nth-child(3){width:30%;height:70%;font-size: 1.1rem;line-height:1.2;word-break: keep-all;text-align: justify;}
+.brand_button{border: 1px solid #fff; border-radius: 20px;font-size: 1rem;padding-left: 10px !important;display: inline-block;line-height: 2;}
+.brand_button:hover{background-color: #fff; color:#1e1e1e;}
+.brand_context{}
+.brand_under_pic{display: flex;width: 80%;margin: 0 auto 5vh auto;}
+.brand_under_pic>div{height:50vh;overflow: hidden;}
+
 
 .contact_info{position:relative;}
 .contact_add_info{

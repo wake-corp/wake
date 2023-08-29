@@ -1,13 +1,18 @@
 @media (min-width: 2000px) {
 }
 @media (min-width: 1220px) {
+ .brand_nav div{margin:0 20px;}
+}
 
+@media (max-width: 1220px) {
+ .brand_nav div{margin:0 20px;padding:1px 20px;}
+ .brand_article_text_box > p:nth-child(3) {width:90%;text-align: left;}
+ .brand_under_pic{flex-direction: column;}
 }
 
 @media (max-width: 1120px) {
   .main_info_container p{ font-size: 0.8rem;}
-  .widebanner ,.widebanner1, .widebanner2 span{
-    font-size: 2rem;}
+
 }
 
 @media (max-width: 992px) {
@@ -46,7 +51,8 @@
   }
 .main_text01{font-size: 1.6rem;}
 .main_text02, .main_text01 span{font-size: 1rem}
-
+.brand_nav{flex-direction: column;margin: 2vh auto;width: 70%;}
+.brand_nav div{margin-bottom:10px;}
 
 .main_info_container p{ font-size: 0.8rem;}
 
@@ -93,9 +99,10 @@
 
 .main_info_container p{ font-size: 0.5rem;}
 .notice_title{font-size: 1.1rem;}
-.widebanner ,.widebanner1, .widebanner2 span{
-  font-size: 1.5rem;}
-
+.brand_article_container1 {margin: 0 auto;}
+.brand_article_container2 {margin: 0 auto;}
+.brand_nav{flex-direction: column;margin: 2vh auto;width: 100%;}
+.brand_nav div{margin-bottom:10px;}
 
 }
 
@@ -127,7 +134,14 @@ p.more_button{font-size: 0.5rem;margin-left: 10px;}
 }
 
 @media (max-width: 480px) {
+.people_container{flex-direction: column;}
+.people_container div{margin-bottom: 5vh;}
+.people_container h2{}
+.people_container div p{word-break: keep-all;}
+.b2{display: none;}
 
+.brand_article_text_box {font-size: 1.2rem;}
+.brand_article_text_box > p:nth-child(3) {width:90%;text-align: left;}
 }
 
 

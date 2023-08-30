@@ -141,7 +141,7 @@ p.more_button{font-size: 0.5rem;margin-left: 10px;}
 
 
 .brand_article_text_box {font-size: 1.2rem;}
-.brand_article_text_box > p:nth-child(3) {width:90%;text-align: left;}
+.brand_article_text_box > p:nth-child(3) {width:90%;text-align: left;font-size: 0.8rem;}
 }
 
 

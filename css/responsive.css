@@ -104,13 +104,13 @@
 .main_info_container p{ font-size: 0.5rem;}
 .notice_title{font-size: 1.1rem;}
 .brand_article_container1 {margin: 0 auto;}
-.brand_article_container2 {margin: 0 auto;}
 .brand_nav{flex-direction: column;margin: 2vh auto;width: 100%;}
 .brand_nav div{margin-bottom:10px;}
 .mobile_pic{display: block;margin: 20px 0 !important;}
 .widebanner2{background-image: none; color:#1e1e1e;}
 .widebanner2 .text_white{color:#1e1e1e;}
 .gray{background-color: #e1e1e1;}
+.brand_article3{background: none; background-color: #1e1e1e;}
 }
 
 @media (max-width: 576px) {
